@@ -1,3 +1,5 @@
+python3 -m http.server
+
 ## UI 
 
 if (full) set class "full" on full column 
@@ -18,6 +20,7 @@ when making a move,
 
 GAME CLASS
 - manages the state of the game
-- 
+- manages player names
+
 
 
