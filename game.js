@@ -1,4 +1,4 @@
-class Game {
+export class Game {
     constructor(playerOneName, playerTwoName) {
         this.playerOneName = playerOneName;
         this.playerTwoName = playerTwoName;
@@ -7,3 +7,5 @@ class Game {
         return `${this.playerOneName} vs. ${this.playerTwoName}`
     }
 }
+export { Game }
+// export default { Game };
